@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: ${MYSQL_CI_URL}
+    username: ${MYSQL_USER}
+    password: ${MYSQL_USER}
+
+logging:
+  level:
+    org.springframework.web: error
